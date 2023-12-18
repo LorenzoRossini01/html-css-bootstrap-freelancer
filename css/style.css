@@ -23,3 +23,8 @@ section .star-icon::after {
 .col div {
   border-radius: 10px;
 }
+
+#about .btn-download {
+  border: 2px solid white;
+  background-color: #1abc9c;
+}
