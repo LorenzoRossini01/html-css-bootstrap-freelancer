@@ -5,6 +5,17 @@
 
 .debug {
   border: dashed red;
-  padding: 0 3rem;
   min-height: 2rem;
+}
+
+section:nth-of-type(odd) {
+  background-color: #1abc9c;
+  color: white;
+}
+
+section .star-icon::after {
+  content: "";
+  width: 3rem;
+  height: 300px;
+  background-color: white;
 }
