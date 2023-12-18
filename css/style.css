@@ -13,11 +13,14 @@ section:nth-of-type(odd) {
   color: white;
 }
 
-section .star-icon::after {
+section .star-icon::after,
+section .star-icon::before {
   content: "";
+  display: inline-block;
+  margin: 0 2rem;
   width: 3rem;
-  height: 300px;
-  background-color: white;
+  height: 3px;
+  background-color: currentColor;
 }
 
 .col div {
@@ -25,6 +28,11 @@ section .star-icon::after {
 }
 
 #about .btn-download {
-  border: 2px solid white;
+  border: 2px solid currentColor;
+  background-color: #1abc9c;
+}
+
+#contact-me .btn-send {
+  color: white;
   background-color: #1abc9c;
 }

@@ -49,17 +49,20 @@
             class="d-flex flex-column align-items-center gap-4 text-uppercase debug"
           >
             <img src="https://picsum.photos/150/200" alt="" />
-            <h1>Start bootstrap</h1>
-            <i class="fa-solid fa-star fa-lg star-icon"></i>
+            <div class="section-header text-center">
+              <h1 class="text-uppercase debug">start bootstrap</h1>
+              <i class="fa-solid fa-star fa-lg star-icon"></i>
+            </div>
             <h3 class="fs-5 debug">sdads - sadasd - addsadas</h3>
           </div>
         </div>
       </section>
 
       <section id="portfolio" class="py-5 text-center">
-        <h2 class="text-uppercase">Portfolio</h2>
-        <i class="fa-solid fa-star fa-lg star-icon"></i>
-
+        <div class="section-header text-center">
+          <h2 class="text-uppercase debug">portfolio</h2>
+          <i class="fa-solid fa-star fa-lg star-icon"></i>
+        </div>
         <div class="container my-4">
           <div class="row g-3">
             <div class="col-md-6 col-lg-4">
@@ -83,9 +86,12 @@
           </div>
         </div>
       </section>
+
       <section id="about" class="py-5 text-center">
-        <h2 class="text-uppercase debug">About me</h2>
-        <i class="fa-solid fa-star fa-lg star-icon"></i>
+        <div class="section-header text-center">
+          <h2 class="text-uppercase debug">about me</h2>
+          <i class="fa-solid fa-star fa-lg star-icon"></i>
+        </div>
         <div class="container py-4 debug">
           <div class="row justify-content-center g-3 text-start flex-wrap">
             <div class="col-8 col-md-5 debug">
@@ -105,7 +111,21 @@
         </div>
       </section>
 
-      <section id="contact-me" class="py-5"></section>
+      <section id="contact-me" class="py-5">
+        <div class="section-header text-center">
+          <h2 class="text-uppercase debug">contact me</h2>
+          <i class="fa-solid fa-star fa-lg star-icon"></i>
+        </div>
+        <div class="container">
+          <div class="row text-start">
+            <div class="col-12 border-bottom border-2 py-2">Name</div>
+            <div class="col-12 border-bottom border-2 py-2">Email Address</div>
+            <div class="col-12 border-bottom border-2 py-2">Phone Number</div>
+            <div class="col-12 border-bottom border-2 py-2 lh-lg">Message</div>
+          </div>
+          <div class="btn btn-primary btn-send my-2">Send</div>
+        </div>
+      </section>
     </main>
 
     <footer id="footer"></footer>
