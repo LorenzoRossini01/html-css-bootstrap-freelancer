@@ -17,13 +17,12 @@ section:nth-of-type(odd) {
   width: 50%;
 }
 
-section .star-icon::after,
-section .star-icon::before {
-  content: "";
+.decoration-row {
   display: inline-block;
-  margin: 0 2rem;
   width: 3rem;
   height: 3px;
+  line-height: 2rem;
+  vertical-align: middle;
   background-color: currentColor;
 }
 
@@ -67,4 +66,18 @@ section .star-icon::before {
   vertical-align: middle;
   border: 1px solid currentColor;
   border-radius: 50%;
+}
+
+label {
+  width: 110px;
+  vertical-align: top;
+}
+
+input {
+  width: calc(100% - 115px);
+  vertical-align: top;
+}
+
+#message-box {
+  width: calc(100% - 115px);
 }
