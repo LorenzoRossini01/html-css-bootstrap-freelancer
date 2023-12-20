@@ -178,42 +178,43 @@
           <div class="row justify-content-center">
             <div class="col-10">
               <form
-                action="https://learning.tizianonicolai.com/request-catcher/index.php"
-                method="post"
+                action="https://learning.tizianonicolai.com/request-catcher/"
+                method="GET"
               >
-                <div class="border-bottom border-2 pt-4 pb-2">
-                  <label for="name" for="">Name</label>
-                  <input type="text" class="border-0" id="name" required />
-                </div>
-
-                <div class="border-bottom border-2 py-2">
-                  <label for="email" for="">Email Address</label>
-                  <input type="email" class="border-0" id="email" required />
-                </div>
-
-                <div class="border-bottom border-2 py-2">
-                  <label for="phone" for="">Phone Number</label>
+                <div class="form-floating mb-3 border-bottom border-dark">
                   <input
-                    type="number"
-                    class="border-0"
-                    min="8"
-                    max="10"
-                    id="phone"
-                    required
+                    type="text"
+                    class="form-control border-0"
+                    id="username"
                   />
+                  <label for="username">Name</label>
                 </div>
 
-                <div class="border-bottom border-2 py-2">
-                  <label for="message-box" for="">Message</label>
+                <div class="form-floating mb-3 border-bottom border-dark">
+                  <input
+                    type="email"
+                    class="form-control border-0"
+                    id="email"
+                  />
+                  <label for="email">Email</label>
+                </div>
+
+                <div class="form-floating mb-3 border-bottom border-dark">
+                  <input type="text" class="form-control border-0" id="phone" />
+                  <label for="phone">Phone number</label>
+                </div>
+
+                <div class="form-floating mb-3 border-bottom border-dark">
                   <textarea
-                    name="message"
+                    type="text"
+                    class="form-control border-0"
                     id="message-box"
-                    rows="5"
-                    class="border-0 overflow-hidden"
-                  ></textarea>
+                  >
+                  </textarea>
+                  <label for="message-box">Message</label>
                 </div>
 
-                <div class="btn btn-primary btn-send my-2">Send</div>
+                <div class="btn btn-send">Send</div>
               </form>
             </div>
           </div>

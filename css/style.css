@@ -39,19 +39,6 @@ section:nth-of-type(odd) {
 
 /* contact me section */
 /* form */
-label {
-  width: 110px;
-  vertical-align: top;
-}
-
-input {
-  width: calc(100% - 115px);
-  vertical-align: top;
-}
-
-#message-box {
-  width: calc(100% - 115px);
-}
 
 #contact-me .btn-send {
   color: white;
