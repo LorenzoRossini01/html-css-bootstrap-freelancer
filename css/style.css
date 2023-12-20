@@ -15,13 +15,15 @@ section:nth-of-type(odd) {
 }
 
 /* section details */
-.decoration-row {
+.star-decoration::after,
+.star-decoration::before {
+  content: "";
   display: inline-block;
-  width: 3rem;
-  height: 3px;
+  width: 150px;
+  height: 4px;
+  background-color: currentColor;
   line-height: 2rem;
   vertical-align: middle;
-  background-color: currentColor;
 }
 
 /* hero */
